@@ -1,4 +1,4 @@
-function DisplayPhotos(( photos )) {
+function DisplayPhotos({ photos }) {
   return (
     <section>
       {photos.length === 0 ? (
